@@ -25,9 +25,9 @@ const About = () => {
       },
     },
     {
-      name: 'Bhavika',
+      name: 'Developer',
       role: 'Developer',
-      image: '',
+      image: 'https://i.ibb.co/zHTMp4Md/Tanmay.jpg',
       bio: 'Good developer',
       links: {
         github: 'https://github.com',
@@ -36,9 +36,9 @@ const About = () => {
       },
     },
     {
-      name: 'Nandini',
+      name: 'Developer',
       role: 'Specialist',
-      image: '',
+      image: 'https://i.ibb.co/zHTMp4Md/Tanmay.jpg',
       bio: 'Good developer',
       links: {
         github: 'https://github.com',
@@ -47,9 +47,9 @@ const About = () => {
       },
     },
     {
-      name: 'Anushka',
+      name: 'Developer',
       role: 'Good developert',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop',
+      image: 'https://i.ibb.co/zHTMp4Md/Tanmay.jpg',
       bio: 'Good developer',
       links: {
         github: 'https://github.com',
