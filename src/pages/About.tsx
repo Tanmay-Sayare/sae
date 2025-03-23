@@ -14,12 +14,12 @@ const About = () => {
 
   const teamMembers = [
     {
-      name: 'Alex Johnson',
+      name: 'Tanmay Sayare',
       role: 'ML Engineer',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop',
-      bio: 'Alex specializes in natural language processing and machine learning algorithms. He led the development of our core evaluation engine.',
+      image: 'https://i.ibb.co/zHTMp4Md/Tanmay.jpg',
+      bio: 'An Aiml engineer focus to train the model.',
       links: {
-        github: 'https://github.com',
+        github: 'https://github.com/Tanmay-say',
         linkedin: 'https://linkedin.com',
         email: 'alex@answereval.com',
       },
