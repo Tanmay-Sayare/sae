@@ -21,40 +21,40 @@ const About = () => {
       links: {
         github: 'https://github.com/Tanmay-say',
         linkedin: 'https://linkedin.com',
-        email: 'alex@answereval.com',
+        email: 'tanmaysayare12345@gmail.com',
       },
     },
     {
-      name: 'Sarah Chen',
-      role: 'Full Stack Developer',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2940&auto=format&fit=crop',
-      bio: 'Sarah is an expert in building scalable web applications. She developed the front-end interface and API architecture for our platform.',
+      name: 'Bhavika',
+      role: 'Developer',
+      image: '',
+      bio: 'Good developer',
       links: {
         github: 'https://github.com',
         linkedin: 'https://linkedin.com',
-        email: 'sarah@answereval.com',
+        email: 'Good developer.com',
       },
     },
     {
-      name: 'Michael Davis',
-      role: 'Education Specialist',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop',
-      bio: 'Michael brings 15 years of experience in education. He ensures our system aligns with pedagogical best practices and educational standards.',
+      name: 'Nandini',
+      role: 'Specialist',
+      image: '',
+      bio: 'Good developer',
       links: {
         github: 'https://github.com',
         linkedin: 'https://linkedin.com',
-        email: 'michael@answereval.com',
+        email: 'Good developer.com',
       },
     },
     {
-      name: 'Olivia Kim',
-      role: 'Research Scientist',
+      name: 'Anushka',
+      role: 'Good developert',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop',
-      bio: 'Olivia leads our research initiatives, focusing on improving algorithm accuracy and exploring new applications of NLP in education.',
+      bio: 'Good developer',
       links: {
         github: 'https://github.com',
         linkedin: 'https://linkedin.com',
-        email: 'olivia@answereval.com',
+        email: 'Good developer.com',
       },
     },
   ];
@@ -77,8 +77,8 @@ const About = () => {
     },
     {
       icon: <Code className="h-6 w-6 text-primary" />,
-      name: 'Flask & Python',
-      description: 'Our backend is built with Flask and Python, ensuring robust performance, scalability, and easy integration with ML libraries.',
+      name: 'Python',
+      description: 'Our backend is built with Python, ensuring robust performance, scalability, and easy integration with ML libraries.',
     },
   ];
 
