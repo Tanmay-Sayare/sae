@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { BookOpen, Github, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -9,6 +9,8 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +24,10 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const goToDemo = () => {
+    navigate('/demo');
+  }
 
   const navLinks = [
     { name: 'Home', path: '/' },
@@ -80,7 +86,7 @@ const Navbar = () => {
             <Button 
               size="sm" 
               className="button-focus-effect"
-              onClick={() => window.open('/demo', '_self')}
+              onClick={goToDemo}
             >
               Try Demo
             </Button>
